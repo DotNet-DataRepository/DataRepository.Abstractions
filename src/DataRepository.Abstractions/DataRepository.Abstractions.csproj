@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.3-alpha</Version>
+    <Authors>jst4upiyush@gmail.com</Authors>
+    <Product>DataRepository</Product>
+    <PackageProjectUrl>https://github.com/DotNet-DataRepository/DataRepository.Abstractions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DotNet-DataRepository/DataRepository.Abstractions</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags></PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Abstraction layer for a generic Repository pattern implementation in .Net</Description>
   </PropertyGroup>
 
 </Project>

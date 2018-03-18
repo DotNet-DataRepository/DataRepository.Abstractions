@@ -2,8 +2,8 @@
 
 namespace DataRepository.Abstractions
 {
-    public interface IRepositoryForQueryWithPrimaryKey<TEntity, TKey> : 
-        IPrimaryKeySelector<TEntity, TKey> 
+    public interface IQueryRepositoryWithKey<TEntity, TKey> : 
+        IPrimaryKeyProvider<TEntity, TKey> 
             where TEntity : class
     {
         Task<TEntity> GetAsync(TKey key);

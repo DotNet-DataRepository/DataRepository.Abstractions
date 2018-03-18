@@ -3,10 +3,9 @@ using System.Linq.Expressions;
 
 namespace DataRepository.Abstractions
 {
-    public interface IPrimaryKeySelector<TEntity, TKey>
+    public interface IPrimaryKeyProvider<TEntity, TKey>
             where TEntity : class
     {
         Expression<Func<TEntity, TKey>> PrimaryKeySelector { get; }
-        TKey GetKey(TEntity entity);
     }
 }

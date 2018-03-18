@@ -1,6 +1,6 @@
 ﻿namespace DataRepository.Abstractions
 {
-    public interface IPageinationDetails
+    public interface IPaginationDetails
     {
         int PageSize { get; }
         int PageNumber { get; }
